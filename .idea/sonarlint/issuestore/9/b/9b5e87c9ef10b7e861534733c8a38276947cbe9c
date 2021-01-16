@@ -1,0 +1,9 @@
+
+i
+java:S1128"GRemove this unused import 'com.panchalamitr.newsapp.data.NewsResponse'.(á“–Èùÿÿÿÿ8¦áş®ğ.
+£
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–ãŸüÿÿÿÿ8¬ì¯ğ.
+X
+java:S1068";Remove this unused "newsHeadLinesRepository" private field.(œ¥Ä8Ãñï¯ğ.
+P
+java:S1068".Remove this unused "disposable" private field.(Ø÷Åùÿÿÿÿ8 ˜ç¯ğ.

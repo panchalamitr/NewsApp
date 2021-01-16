@@ -10,10 +10,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class BaseActivity extends AppCompatActivity {
 
-    @VisibleForTesting
     public ProgressBar mProgressBar;
 
-    public void setProgressBar(ProgressBar progressBar) {
+    public void initProgressBar(ProgressBar progressBar) {
         mProgressBar = progressBar;
     }
 

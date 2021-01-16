@@ -15,6 +15,5 @@ class MainApplication : MultiDexApplication() {
 
         FacebookSdk.sdkInitialize(applicationContext);
         AppEventsLogger.activateApp(this);
-
     }
 }

@@ -1,0 +1,12 @@
+
+\
+java:S1128"?Remove this unused import 'com.panchalamitr.newsapp.data.News'.(ÏÎàú8ú“–¯ğ.
+a
+java:S1128"?Remove this unused import 'androidx.lifecycle.MutableLiveData'.(Íèæâıÿÿÿÿ8ÑàÊ¯ğ.
+a
+java:S1128"ERemove this unused import 'com.panchalamitr.newsapp.data.NewsResult'.(Õğ¾{8ÑàÊ¯ğ.
+Z
+java:S1128"8Remove this unused import 'androidx.lifecycle.LiveData'.(ß„İŞşÿÿÿÿ8ÑàÊ¯ğ.
+Q
+java:S1128
+"4Remove this unused import 'io.reactivex.Observable'.(–˜¼8ú“–¯ğ.

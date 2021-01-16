@@ -31,6 +31,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.panchalamitr.newsapp.R;
 import com.panchalamitr.newsapp.databinding.ActivitySocialLoginBinding;
+import com.panchalamitr.newsapp.viewmodel.SocialLoginViewModel;
 
 import timber.log.Timber;
 
@@ -42,18 +43,16 @@ public class SocialLoginActivity extends BaseActivity {
     CallbackManager mCallbackManager = null;
     ActivitySocialLoginBinding activitySocialLoginBinding = null;
     private FirebaseAuth mFirebaseAuth;
-
+    private SocialLoginViewModel socialLoginViewModel;
     private GoogleSignInClient mGoogleSignInClient;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_social_login);
-
         mCallbackManager = CallbackManager.Factory.create();
         activitySocialLoginBinding = ActivitySocialLoginBinding.inflate(LayoutInflater.from(this));
+        setContentView(activitySocialLoginBinding.getRoot());
 
-        // [START initialize_auth]
         // Initialize Firebase Auth
         mFirebaseAuth = FirebaseAuth.getInstance();
         // [END initialize_auth]
@@ -176,6 +175,7 @@ public class SocialLoginActivity extends BaseActivity {
         hideProgressBar();
         if (user != null) {
             startActivity(new Intent(SocialLoginActivity.this, NewsHeadLinesActivity.class));
+            finish();
         } else {
             Toast.makeText(SocialLoginActivity.this, "Login Fail", Toast.LENGTH_LONG).show();
         }

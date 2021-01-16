@@ -1,10 +1,18 @@
 
 package com.panchalamitr.newsapp.data;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class NewsResult {
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import timber.log.Timber;
+
+public class NewsResult implements Parcelable {
 
     @SerializedName("id")
     @Expose
@@ -39,6 +47,33 @@ public class NewsResult {
     @SerializedName("pillarName")
     @Expose
     private String pillarName;
+
+    protected NewsResult(Parcel in) {
+        id = in.readString();
+        type = in.readString();
+        sectionId = in.readString();
+        sectionName = in.readString();
+        webPublicationDate = in.readString();
+        webTitle = in.readString();
+        webUrl = in.readString();
+        apiUrl = in.readString();
+        byte tmpIsHosted = in.readByte();
+        isHosted = tmpIsHosted == 0 ? null : tmpIsHosted == 1;
+        pillarId = in.readString();
+        pillarName = in.readString();
+    }
+
+    public static final Creator<NewsResult> CREATOR = new Creator<NewsResult>() {
+        @Override
+        public NewsResult createFromParcel(Parcel in) {
+            return new NewsResult(in);
+        }
+
+        @Override
+        public NewsResult[] newArray(int size) {
+            return new NewsResult[size];
+        }
+    };
 
     public String getId() {
         return id;
@@ -126,6 +161,26 @@ public class NewsResult {
 
     public void setPillarName(String pillarName) {
         this.pillarName = pillarName;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(id);
+        dest.writeString(type);
+        dest.writeString(sectionId);
+        dest.writeString(sectionName);
+        dest.writeString(webPublicationDate);
+        dest.writeString(webTitle);
+        dest.writeString(webUrl);
+        dest.writeString(apiUrl);
+        dest.writeByte((byte) (isHosted == null ? 0 : isHosted ? 1 : 2));
+        dest.writeString(pillarId);
+        dest.writeString(pillarName);
     }
 
 }

@@ -1,0 +1,6 @@
+
+Y	java:S110"=This class has 10 parents which is greater than 5 authorized.(Å§˜õ8“•Šªğ.
+
+java:S1450"dRemove the "newsHeadLineViewModel" field and declare it as a local variable in the relevant methods.(¢¤ÂÉ8É‡è®ğ.
+V
+java:S1068"9Remove this unused "newsHeadLineViewModel" private field.(¢¤ÂÉ8É‡è®ğ.
