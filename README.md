@@ -17,12 +17,16 @@ I have used following tools
  - Retrofit (Network Call)
  - LoggingInterceptor (Api Logs)
 
-
+-------------------------
 **Video Link**
+[![Everything Is AWESOME](https://github.com/panchalamitr/NewsApp/blob/main/screenshot/Youtube.png)](https://youtu.be/vU4uO8UXnKM "Everything Is AWESOME")
 
+-------------------------
 
 **Screenshots**
 ![News App Screenshot](https://github.com/panchalamitr/NewsApp/blob/main/screenshot/Banner.jpg)
+
+-------------------------
 
 **Description**
 
