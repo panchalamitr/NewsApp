@@ -1,2 +1,6 @@
 
+t
+java:S1104"XMake mProgressBar a static final constant or non-public and provide accessors if needed.(î¥÷8¡ÉÊÑð.
+d
+java:S1128"BRemove this unused import 'androidx.annotation.VisibleForTesting'.(¶Ñ„¾üÿÿÿÿ8¡ÉÊÑð.
 ]	java:S110"<This class has 9 parents which is greater than 5 authorized.(å´Ê«ÿÿÿÿÿ8ÝÅ©‡ð.

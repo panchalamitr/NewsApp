@@ -21,8 +21,6 @@ q
 Aapp/src/main/java/com/panchalamitr/newsapp/data/NewsResponse.java,0\2\02c8b0f446aceb40e7a022cc53a28fdbd6eb1d4a
 o
 ?app/src/main/java/com/panchalamitr/newsapp/data/NewsResult.java,6\0\6025b27c1244fd903413a412ee41fa1e30c44b7b
-t
-Dapp/src/main/java/com/panchalamitr/newsapp/NewsHeadLinesAdapter.java,5\3\5335104b153493f74508dc63180ecac89d577e03
 ~
 Napp/src/main/java/com/panchalamitr/newsapp/viewmodel/SocialLoginViewModel.java,0\7\072ecbeddeaf4afd6469c799af2275e7d1eb6580
 u
@@ -31,3 +29,11 @@ Eapp/src/main/java/com/panchalamitr/newsapp/retrofit/NewsRetrofit.java,1\7\1798
 Rapp/src/main/java/com/panchalamitr/newsapp/repository/NewsHeadLinesRepository.java,3\7\379d8678228e655e71fa9d00760efa998dc00e67
 €
 Papp/src/main/java/com/panchalamitr/newsapp/viewmodel/NewsHeadLinesViewModel.java,9\b\9b5e87c9ef10b7e861534733c8a38276947cbe9c
+m
+=app/src/main/java/com/panchalamitr/newsapp/util/Constant.java,b\e\be88a9d57bdfdc95c64647f0e4d8c588a97f007b
+|
+Lapp/src/main/java/com/panchalamitr/newsapp/listener/OnItemClickListener.java,b\c\bc2e72e85f608a1f7736d94d1469ff40c4495e69
+|
+Lapp/src/main/java/com/panchalamitr/newsapp/adapter/NewsHeadLinesAdapter.java,6\1\617adb50707404ed4809bb5530d81158e12ad6e2
+u
+Eapp/src/main/java/com/panchalamitr/newsapp/ui/DetailNewsActivity.java,e\c\ec21ef6131eff37651f04ffda7362ffdb77b97c2

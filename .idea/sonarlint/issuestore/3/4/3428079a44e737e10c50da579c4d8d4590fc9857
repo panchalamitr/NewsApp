@@ -1,13 +1,15 @@
 
-X	java:S125y"<This block of commented-out lines of code should be removed.(å†ò˜8ù—¶©ğ.
-g
-java:S1874v"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ŸŒ¹Ñ8ù—¶©ğ.
-Y	java:S110%"=This class has 10 parents which is greater than 5 authorized.(Ÿ’¡€8¯ ¨ğ.
+Y	java:S110&"=This class has 10 parents which is greater than 5 authorized.(Ÿ’¡€8¯ ¨ğ.
+X	java:S125x"<This block of commented-out lines of code should be removed.(å†ò˜8ù—¶©ğ.
 E
-java:S1604`"(Make this anonymous inner class a lambda(œ˜¸ß8àÛ×©ğ.
+java:S1604_"(Make this anonymous inner class a lambda(œ˜¸ß8àÛ×©ğ.
+g
+java:S1874u"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ŸŒ¹Ñ8ù—¶©ğ.
 K
 java:S1604¿"(Make this anonymous inner class a lambda(¥íîŸÿÿÿÿÿ8ù—¶©ğ.
-Y
-java:S1068("7Remove this unused "RC_FACEBOOK_SIGN_IN" private field.(¹¬îÜÿÿÿÿÿ8ë¦¤¨ğ.
+U
+java:S1068."8Remove this unused "socialLoginViewModel" private field.(ÆšÅ¥8››×Öğ.
 `
-java:S1874e">Remove this use of "startActivityForResult"; it is deprecated.( í£ûÿÿÿÿ8Î™Ø©ğ.
+java:S1874d">Remove this use of "startActivityForResult"; it is deprecated.( í£ûÿÿÿÿ8Î™Ø©ğ.
+Y
+java:S1068)"7Remove this unused "RC_FACEBOOK_SIGN_IN" private field.(¹¬îÜÿÿÿÿÿ8ë¦¤¨ğ.

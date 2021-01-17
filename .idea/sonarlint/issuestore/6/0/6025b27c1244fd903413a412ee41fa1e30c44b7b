@@ -1,0 +1,12 @@
+
+T
+java:S1128
+"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8éÉÎ×ğ.
+M
+java:S5411µ"*Use the primitive boolean expression here.(Äü³íıÿÿÿÿ8ƒ»Óğ.
+K
+java:S1128".Remove this unused import 'timber.log.Timber'.(ÈÊÖ 8éÉÎ×ğ.
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8àŸš×ğ.
+g
+java:S3358µ"DExtract this nested ternary operation into an independent statement.(Äü³íıÿÿÿÿ8ƒ»Óğ.

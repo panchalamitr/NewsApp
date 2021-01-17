@@ -1,11 +1,0 @@
-
-G
-java:S1068"+Remove this unused "context" private field.(êİç8Ú˜¦¯ğ.
-£
-java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬‚çÃıÿÿÿÿ8»¨¨¯ğ.
-“
-java:S1319"vThe type of the "newsResults" object should be an interface such as "List" rather than the implementation "ArrayList".(Ê‘Û8»¨¨¯ğ.
-„
-java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(ïö¾Íüÿÿÿÿ8»¨¨¯ğ.
-T
-java:S1068"7Remove this unused "newsResultArrayList" private field.(’§¤8»¨¨¯ğ.

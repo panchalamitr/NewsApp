@@ -177,7 +177,7 @@ public class SocialLoginActivity extends BaseActivity {
             startActivity(new Intent(SocialLoginActivity.this, NewsHeadLinesActivity.class));
             finish();
         } else {
-            Toast.makeText(SocialLoginActivity.this, "Login Fail", Toast.LENGTH_LONG).show();
+            Timber.d("");
         }
     }
 
