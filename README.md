@@ -11,11 +11,11 @@ There are three screens
 I have used following tools
 
 
- - Timber (For Log purpose)
- - RxJava ( For Async Operation)
-  - DaggerHilt ( Dependancy Injection)
- - Retrofit (Network Call)
- - LoggingInterceptor (Api Logs)
+ - Timber ⏺ (For Log purpose)
+ - RxJava 🚀 ( For Async Operation)
+ - DaggerHilt 💉 ( Dependancy Injection)
+ - Retrofit 📲 (Network Call)
+ - LoggingInterceptor ⏺︎ (Api Logs)
 
 -------------------------
 **Video Link**
